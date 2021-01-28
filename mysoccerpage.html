@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Soccer Garden</title>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+        <style>
+            .jumbotron{
+                background-image: url(sky.jpg);
+                text-align: center;
+            }
+            #email {
+                width: 400px;
+            }
+            #about{
+                text-align: center;
+                
+            }
+            body {
+              position: relative;
+            }
+           
+        </style>
+    </head>
+
+    <body data-spy="scroll" data-target="#navbar" data-offset="150">
+            
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navbar">
+          <a class="navbar-brand" href="#">MENU</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" data-spy="scroll" data-target="#navbar" data-offset="0">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">ログインはこちらから</a>
+              </li>
+            </ul>
+        
+            <form>
+            <div class="container">
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">IDを記憶しますか？</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </form>
+          </div>
+        </nav>
+        
+
+        <div class="jumbotron" id="jumbotron">
+          <h1 class="display-4" id="home">Soccer Garden</h1>
+          <p class="lead">Hello!! Soccer fans!!<br>
+            サッカーの情報を随時更新していくよ！</p>
+          <hr class="my-4">
+          <p>まずは、会員登録をしよう！</p>
+          <div class="container">
+
+            <form class="form-inline">
+                <div class="form-group">
+                    <label class="sr-only" for="email">Email address</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="email" placeholder="Your email">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">登録開始！</button>
+            </form>
+            </div>
+        </div>
+    
+            
+        <div class="container">
+
+            <div id="about">
+                <h2>About us</h2>
+                <p>欧州サッカーの情報を随時更新していきます！</p>
+            </div>
+        </div>
+             
+        <div class="container" id="about">
+            <div class="card-deck-wrapper">
+                <div class="card-deck">
+                <div class="card" style="width: 18rem;">
+                <img class="bd-placeholder-img card-img-top" src="CL_champion.jpg" alt="Card image cap">
+                    <div class="card-block">
+                    <h4 class="card-title"> UCL</h4>
+                    <p class="card-text">UEFAチャンピオンズリーグについて、最新情報を更新していくよ！</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                <img class="bd-placeholder-img card-img-top" src="CL_champion.jpg" alt="Card image cap">
+                    <div class="card-block"><h4 class="card-title"> NEWS</h4>
+                    <p class="card-text">サッカーの最新ニュースをPick up!!</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+             
+        <hr>        
+
+        <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mfRmEU6CKLE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen aligin="right"></iframe>
+        </div>
+
+       
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
